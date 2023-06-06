@@ -70,7 +70,7 @@ def getToken() {
 		body:  [
 			client_id: "$appId",
 			client_secret: "$secretValue",
-			refresh_token: "<your_token_here>",
+			refresh_token: "<your_refresh_token_here>",
 			grant_type: "refresh_token"
 			]
 		]
